@@ -32,4 +32,5 @@ jobs:
         ACTION_NAME: ${{ vars.ACTION_NAME }}
         OWNER: nkosinathis
         REPO_NAME: ${{ vars.REPO_NAME }}
+        MD_FOLDER: releases
         
