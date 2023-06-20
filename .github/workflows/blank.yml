@@ -30,5 +30,6 @@ jobs:
         GH_PAT: ${{ secrets.GH_PAT }}
         ACTION_MAIL: ${{ vars.ACTION_MAIL }}
         ACTION_NAME: ${{ vars.ACTION_NAME }}
-        REPO_NAME: ${{ vars.REPO_NAME }}
         OWNER: nkosinathis
+        REPO_NAME: ${{ vars.REPO_NAME }}
+        
