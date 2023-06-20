@@ -27,7 +27,7 @@ jobs:
     - name: Upload Release Notes to Wiki
       uses: docker://decathlon/wiki-page-creator-action:latest
       env:
-        GH_PAT: temp_release_notes
-        ACTION_MAIL: youremail@mail.com
-        ACTION_NAME: nkosinathis
-        REPO_NAME: test
+        GH_PAT: ${{ secrets.GH_PAT }}
+        ACTION_MAIL: ${{ env.GH_PAT }}
+        ACTION_NAME: ${{ env.GH_PAT }}
+        REPO_NAME: ${{ env.GH_PAT }}
