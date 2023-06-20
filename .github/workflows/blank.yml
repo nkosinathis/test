@@ -31,4 +31,4 @@ jobs:
         ACTION_MAIL: ${{ vars.ACTION_MAIL }}
         ACTION_NAME: ${{ vars.ACTION_NAME }}
         REPO_NAME: ${{ vars.REPO_NAME }}
-        OWNER:  ${{ env.GITHUB_REPOSITORY_OWNER }}
+        OWNER: nkosinathis
