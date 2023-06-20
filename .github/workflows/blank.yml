@@ -28,6 +28,6 @@ jobs:
       uses: docker://decathlon/wiki-page-creator-action:latest
       env:
         GH_PAT: ${{ secrets.GH_PAT }}
-        ACTION_MAIL: ${{ env.GH_PAT }}
-        ACTION_NAME: ${{ env.GH_PAT }}
-        REPO_NAME: ${{ env.GH_PAT }}
+        ACTION_MAIL: ${{ env.ACTION_MAIL }}
+        ACTION_NAME: ${{ env.ACTION_NAME }}
+        REPO_NAME: ${{ env.REPO_NAME }}
