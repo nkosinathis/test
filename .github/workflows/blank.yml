@@ -41,5 +41,5 @@ jobs:
         password: ${{ secrets.CONFLUENCE_API_TOKEN }}
         confluence-base-url: https://betsoftware.atlassian.net/wiki
         space-id: BE
-        parent-page-id: Alchemists+Release+Notesß
+        parent-page-id: 2836234311
       
