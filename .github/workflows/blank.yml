@@ -34,12 +34,12 @@ jobs:
         REPO_NAME: ${{ vars.REPO_NAME }}
         MD_FOLDER: releases
     - name: Sync Docs as Code - Confluence
-        uses: Bhacaz/docs-as-code-confluence@v1
-        with:
-          folder: releases
-          username: ${{ vars.ACTION_MAIL }}
-          password: ${{ secrets.CONFLUENCE_API_TOKEN }}
-          confluence-base-url: https://betsoftware.atlassian.net/wiki/spaces/BE/pages/
-          space-id: BE
-          parent-page-id: 2836234311
+      uses: Bhacaz/docs-as-code-confluence@v1
+      with:
+        folder: releases
+        username: ${{ vars.ACTION_MAIL }}
+        password: ${{ secrets.CONFLUENCE_API_TOKEN }}
+        confluence-base-url: https://betsoftware.atlassian.net/wiki/spaces/BE/pages/
+        space-id: BE
+        parent-page-id: 2836234311
       
