@@ -40,6 +40,6 @@ jobs:
         username: ${{ vars.ACTION_MAIL }}
         password: ${{ secrets.CONFLUENCE_API_TOKEN }}
         confluence-base-url: https://betsoftware.atlassian.net/wiki
-        space-id: Alchemists+Team+Space
+        space-id: BE
         parent-page-id: Alchemists+Release+Notesß
       
